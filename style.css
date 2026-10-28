@@ -116,9 +116,10 @@ button{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 0 70px;
+    padding: 70px 100px;
     gap: 20px;
     scroll-margin-top: 60px;
+    background-color: #f7f9fc;
 }
 
 .uzun{
@@ -126,7 +127,6 @@ button{
     height: 5px;
     background-color: #fcbf49;
     border: none;
-    margin-bottom: 60px;
 }
 
 .haqida{
@@ -167,5 +167,51 @@ button{
 }
 
 .malumotlar li i{
+    color: #2a9d8f;
+}
+
+.uchinchi{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px;
+    gap: 30px;
+    background-color: #f7f9fc;
+}
+
+.skills{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.skills i{
+    color: #2a9d8f ;
+    font-size: 30px;
+}
+
+.skills h3{
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.uchinchi ol{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+
+.uchinchi ol li{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px;
+    border-left: 5px solid #2a9d8f;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.uchinchi ol i{
     color: #2a9d8f;
 }
