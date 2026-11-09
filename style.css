@@ -116,7 +116,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 70px 100px;
+    padding: 30px 100px;
     gap: 20px;
     scroll-margin-top: 60px;
     background-color: #f7f9fc;
@@ -173,7 +173,7 @@ button{
 .uchinchi{
     display: flex;
     flex-direction: column;
-    padding: 70px 100px;
+    padding: 30px 100px;
     gap: 30px;
     background-color: #f7f9fc;
 }
@@ -214,4 +214,121 @@ button{
 
 .uchinchi ol i{
     color: #2a9d8f;
+}
+
+.tortinchi{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    gap: 20px;
+    background-color: #f7f9fc;
+}
+
+.tortinchi div{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.tortinchi div i {
+    font-size: 30px;
+    color: #2a9d8f;
+}
+
+.tortinchi div h3 {
+    color: #14213d;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tortinchi ol {
+    list-style-type: none;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.tortinchi ol li{
+    width: 300px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    border-left: 5px solid #2a9d8f;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tortinchi ol li i {
+    color: #2a9d8f;
+    font-size: 30px;
+}
+
+.tortinchi ol li h3{
+    color: #14213d;
+}
+
+.tortinchi ol li p{
+    font-size: 14px;
+    color: #14213d;
+}
+
+.beshinchi{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    gap: 20px;
+    background-color: #f7f9fc;
+}
+
+.beshinchi div{
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.beshinchi div i {
+    color: #2a9d8f;
+    font-size: 30px;
+}
+
+.beshinchi div h3 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.beshinchi p {
+    color: #14213d;
+}
+
+.beshinchi ol {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.beshinchi ol li {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.beshinchi ol li i {
+    color: #2a9d8f;
+    font-size: 16px;
+}
+
+.beshinchi ol li a{
+    text-decoration: none;
+    color: #14213d;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    background-color: #14213d;
+    color: #fff;
 }
